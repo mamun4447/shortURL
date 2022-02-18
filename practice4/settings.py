@@ -120,5 +120,5 @@ STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
-MEDIA_ROOT='media'
+MEDIA_ROOT='mediafiles'
 STATIC_ROOT = "staticfiles"
