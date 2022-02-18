@@ -1,0 +1,1 @@
+web gunicorn practice4.wsgi:application --log-file -
