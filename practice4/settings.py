@@ -25,7 +25,7 @@ SECRET_KEY = 'ma-wjn=+-9um5put80h^6$+)#s)j_bio6#*7cq5(6q6zf^@ywf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1:8000','']
+ALLOWED_HOSTS = ['127.0.0.1:8000','makeurlshorts.herokuapp.com']
 
 
 # Application definition
