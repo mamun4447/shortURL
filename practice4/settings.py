@@ -10,6 +10,8 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
+# from distutils import config
+from logging import config
 import os
 from pathlib import Path
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -23,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'ma-wjn=+-9um5put80h^6$+)#s)j_bio6#*7cq5(6q6zf^@ywf'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = config('DEBUG', default=False, cast=bool)
 
 ALLOWED_HOSTS = ['127.0.0.1:8000','makeurlshorts.herokuapp.com']
 
