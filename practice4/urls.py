@@ -10,4 +10,6 @@ urlpatterns = [
     pa('admin/', admin.site.urls),
     pa('', include('app.urls')),
 
+    # urls(r'^media/(?P<path>.*)$', serve,{'document_root':       settings.MEDIA_ROOT}), 
+    # urls(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT}), 
 ]
